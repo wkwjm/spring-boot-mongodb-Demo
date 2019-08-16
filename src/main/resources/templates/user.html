@@ -1,0 +1,23 @@
+<!DOCTYPE html SYSTEM "http://www.thymeleaf.org/dtd/xhtml1-strict-thymeleaf-spring4-4.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- BEGIN FORM-->
+<form action="/user/save" method="post">
+        <input name="id" id="id" type="hidden">
+        <input  type="text" placeholder="姓名" id="userName" name="userName"> <br>
+        <input  type="password"  placeholder="密码" id="passWord" name="passWord"><br>
+        <input  type="text"  placeholder="qq邮箱" id="qq" name="qq"><br>
+        <input  type="text"  placeholder="微信账号" id="weiXin" name="weiXin"><br>
+        <input  type="text"  placeholder="手机号码" id="phone" name="phone"><br>
+        <input  type="text"  placeholder="爱好" id="hobby" name="hobby"><br>
+
+        <button type="submit">保存</button><br>
+        <button type="reset">重置</button><br>
+</form>
+<!-- END FORM-->
+</body>
+</html>
